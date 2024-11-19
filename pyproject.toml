@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aipisarz-2"
+version = "0.1.0"
+description = "AI article writer"
+authors = ["sviatobor <swiat.bor@gmail.com>"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"  # FastAPI
+uvicorn = "^0.23.0"   #  Uvicorn
+openai = "^0.28.0"    #  OpenAI
+python-dotenv = "^1.0.1"  # python-dotenv
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
